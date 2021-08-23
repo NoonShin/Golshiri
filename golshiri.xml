@@ -1,0 +1,196 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edition of a sermon by James of Vitry</title>
+                <editor>Nicole Bériou</editor>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name>[your name here]</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="P2">Paris, BnF, lat. 3284, f. 107va-110ra</witness>
+                    <witness xml:id="P3">Paris, BnF, lat. 3337, f. 76rb-77vb</witness>
+                    <witness xml:id="P1">Paris, BnF, lat. 17509, f. 79d-82b</witness>
+                    <witness xml:id="G">Paris, Bibliothèque Sainte-Geneviève, 1420, f.
+                        81ra-82vb</witness>
+                    <witness xml:id="R2">Rome, Arch O.P. XIV-36, f. 162ra-166ra</witness>
+                    <witness xml:id="T">Troyes, BM 228, f. 138vb-140rb</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation>
+                <listChange ordered="true">
+                    <change xml:id="first-run">First draft with pencil</change>
+                    <change xml:id="pencil">Changes with pencil</change>
+                    <change xml:id="light-blue-pen">Changes with light blue pen</change>
+                    <change xml:id="blue-pen">Changes with blue pen</change>
+                    <change xml:id="black-pen">Changes with black pen</change>
+                </listChange>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <text xml:lang="fa">
+        <body>
+            <div>
+                <p>stand &#9; معصوم سوم &#9; ص۱ &#9; مردادماه ۱۳۵۲</p>
+                <p>مأموران شکاربانی دیده بودنش که از یک جاده بزرو بالا
+                    <seg xml:id="var_1">می‌رود.</seg>
+                    اول
+                    <seg xml:id="var_2">احیاناً </seg>
+                    موتورش
+                    <seg xml:id="var_3">را </seg>
+                    در سایهٔ
+                    <seg xml:id="var_4">تخته سنگی </seg>
+                    دیده‌اند و بعد دیگر
+                    <seg xml:id="var_5">با وجود</seg>
+                    <seg xml:id="var_6">جای پا</seg>
+                    یا عصایش بر خاک نرم شیب تند پیدا کردنش آنقدرها مشکل نبوده است. گفته بود: نمی‌دانسته است که شکار
+                    <seg xml:id="var_7">هم</seg>
+                    در این کوه
+                    <seg xml:id="var_8">قرق شده است.</seg>
+                    و به قله اشاره کرده بود. قله از پشت ململ مه نازکی پیدا بوده است. در پاسگاه کوله‌پشتی‌اش را بازرسی کرده بودند. یک
+                    <seg xml:id="var_9">تیشه</seg>
+                    داشته و چند بسته کاغذ
+                    <seg xml:id="var_10">لوله‌شده</seg>
+                    و مقداری گچ و موم و حتی یک متر
+                    <seg xml:id="var_11">پارچه‌ای </seg>
+                    و یک قابلمه کباب شامی و پنج شش نان که فقط غذای دو روز را کفایت می‌کرده است.
+
+                </p>
+                <p>
+                    برای تحقیقات بیشتر به خانه‌اش هم آمده بودند. زنش بی‌خبر بود. حتی فکر
+                    <seg xml:id="var_12">می‌کرد</seg>
+                    که برای کار به شهر دیگری رفته است.
+                    <seg xml:id="var_13">گفته است</seg>
+                    : موتورش را فروخت و ابزار کارش را برداشت و رفت
+                </p>
+                <p>کباب شامی را زن برایش
+                    <seg xml:id="var_14">پخته</seg>
+                    بود. ما بعد خبر شدیم. یکی دو روز بعد هم که صدای شیون بچه‌هاش بلند شده بود و همسایه‌ها
+                    <seg xml:id="var_15">رفته بودند</seg>
+                    سراغش
+                    <seg xml:id="var_16">گفته است</seg>
+                    : در صندوقش را شکسته و همه
+                    <seg xml:id="var_17">چیزهایی</seg>
+                    که این تو ریخته بود بردند.یکی دو روز بعد هم که صدای شیون بچه‌هاش بلند شده بود و همسایه‌ها رفته بودند سراغش گفته است: در صندوقش را شکسته و همه چیزهایی که
+                    <seg xml:id="var_18">این تو</seg>
+                    ریخته بود بردند.
+                </p>
+                <p xml:id="loc">صندوق را نشان زن‌ها داده بود.
+                  <seg xml:id="var_19">یکی از همین یخدان‌های بزرگ قدیمی با گل‌میخ‌ها و پولک‌هایی از آهن سفید. خالی بوده است.</seg>
+                    قفل همچنان به ریزه بند بوده و چفت شکسته و دونیم شده بود. گفته است: کلیدش همیشه پهلوی خودش بود. هیچوقت
+                    <seg xml:id="var_20">هم</seg>
+                    جلو من بازش
+                    <seg xml:id="var_21">نمی‌کرد.</seg>
+                </p>
+            </div>
+        </body>
+        <app corresp="#var_1">
+            <rdg change="#first-run">می‌رود</rdg>
+            <rdg change="#pencil">رفته است می‌رود</rdg>
+            <rdg change="#blue-pen">می‌رود</rdg>
+        </app>
+        <app corresp="#var_2">
+            <rdg change="#pencil">احیاناً</rdg>
+            <rdg change="#first-run"></rdg>
+        </app>
+        <app corresp="#var_3">
+            <rdg change="#first-run"></rdg>
+            <rdg change="#light-blue-pen">را</rdg>
+        </app>
+        <app corresp="#var_4">
+            <rdg change="#first-run">
+                <del>کوهی</del>
+                <add>تخته‌سنگی</add>
+            </rdg>
+        </app>
+        <app corresp="#var_5">
+            <rdg change="#first-run"></rdg>
+            <rdg change="#pencil">با وجود</rdg>
+        </app>
+        <app corresp="#var_6">
+            <rdg change="#first-run">پایش</rdg>
+            <rdg change="#light-blue-pen">پا</rdg>
+        </app>
+        <app corresp="#var_7">
+            <rdg change="#first-run"></rdg>
+            <rdg change="#blue-pen">هم</rdg>
+        </app>
+        <app corresp="#var_8">
+            <rdg change="#first-run">قدغن
+            <del>شده</del>
+            است.</rdg>
+            <rdg change="#blue-pen">قرق شده است.</rdg>
+        </app>
+        <app corresp="#var_9">
+            <rdg change="#first-run">تبر</rdg>
+            <rdg change="#blue-pen">تیشه</rdg>
+        </app>
+        <app corresp="#var_10">
+            <rdg change="#first-run"></rdg>
+            <rdg change="#pencil">لوله‌شده</rdg>
+        </app>
+        <app corresp="#var_11">
+            <rdg change="#first-run">پارچه‌ای</rdg>
+            <rdg change="#light-blue-pen">پارچه نایلونی‌ای</rdg>
+            <rdg change="#blue-pen">پارچه‌ای</rdg>
+        </app>
+        <app corresp="#var_12">
+            <rdg change="#first-run">می‌کرد<del>ه است</del></rdg>
+        </app>
+        <app corresp="#var_13">
+            <rdg change="#first-run">گفت</rdg>
+            <rdg change="#light-blue-pen">گفته است</rdg>
+        </app>
+        <app corresp="#var_14">
+            <rdg change="#first-run">درست کرده</rdg>
+            <rdg change="#blue-pen">پخته</rdg>
+        </app>
+        <app corresp="#var_15">
+            <rdg change="#first-run">رفته بود</rdg>
+            <rdg change="#light-blue-pen">رفته بودند</rdg>
+        </app>
+        <app corresp="#var_16">
+            <rdg change="#first-run">گفته بود</rdg>
+            <rdg change="#pencil">زن گفته بود</rdg>
+            <rdg change="#blue-pen">گفته است</rdg>
+        </app>
+        <app corresp="#var_17">
+            <rdg change="#first-run">چیزهایی</rdg>
+            <rdg change="#blue-pen"><del>چیزهایی</del><add>چیزهایی</add></rdg>
+        </app>
+        <app corresp="#var_18">
+            <rdg change="#first-run">آن</rdg>
+            <rdg change="#light-blue-pen">آن تو</rdg>
+            <rdg change="#blue-pen">این تو</rdg>
+        </app>
+        <app corresp="#var_20">
+            <rdg change="#first-run"></rdg>
+            <rdg change="#blue-pen">هم</rdg>
+        </app>
+        <app corresp="#var_21">
+            <rdg change="#first-run">نکرده بود. ببینم چی توش هست.</rdg>
+            <rdg change="#light-blue-pen">نکرده بود.</rdg>
+            <rdg change="#blue-pen">نمی‌کرد</rdg>
+        </app>
+        <app corresp="#var_19">
+            <rdg change="#first-run">خالی بوده است.</rdg>
+            <rdg change="#blue-pen">یکی از همین یخدان‌های بزرگ قدیمی با گل‌میخ‌ها و پولک‌هایی از آهن سفید. خالی بوده است.</rdg>
+            <rdg change="#pencil">
+                  صندوق یکی از همین یخدان‌های بزرگ قدیمی، با
+                  <unclear>...</unclear>
+                  ی و پولک‌ها
+                خالی بوده است.
+            </rdg>
+            <rdg change="#light-blue-pen">یکی از همین یخدان‌های بزرگ قدیمی با گل‌میخ‌ها و پولک‌ها خالی بوده است</rdg>
+        </app>
+    </text>
+</TEI>

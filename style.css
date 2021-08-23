@@ -1,0 +1,49 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.row {
+    height: 700px;
+    width: 100%;
+}
+
+.col {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#critical {
+  text-align: justify;
+}
+
+seg {
+  background-color: pink;
+}
+
+seg[rend='blue-pen'] {
+  background-color: lightblue;
+}
+
+seg[rend='light-blue-pen'] {
+  background-color: turquoise;
+}
+
+seg[rend='pencil'] {
+  background-color: grey;
+}
+
+seg[rend='first-run'] {
+  background-color: silver;
+}
+
+add {vertical-align:super;}
+
+del {text-decoration:line-through;}
