@@ -3,25 +3,19 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Edition of a sermon by James of Vitry</title>
-                <editor>Nicole Bériou</editor>
+                <title>معصوم سوم</title>
+                <author>Houshang Golshiri</author>
                 <respStmt>
                     <resp>Encoded by</resp>
-                    <name>[your name here]</name>
+                    <name>Nooshin Shahidzadeh Asadi</name>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
-                <p>Publication Information</p>
+                <p>First published 1973</p>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
-                    <witness xml:id="P2">Paris, BnF, lat. 3284, f. 107va-110ra</witness>
-                    <witness xml:id="P3">Paris, BnF, lat. 3337, f. 76rb-77vb</witness>
-                    <witness xml:id="P1">Paris, BnF, lat. 17509, f. 79d-82b</witness>
-                    <witness xml:id="G">Paris, Bibliothèque Sainte-Geneviève, 1420, f.
-                        81ra-82vb</witness>
-                    <witness xml:id="R2">Rome, Arch O.P. XIV-36, f. 162ra-166ra</witness>
-                    <witness xml:id="T">Troyes, BM 228, f. 138vb-140rb</witness>
+                    <witness xml:id="P1">Stanford Libraries Manuscript</witness>
                 </listWit>
             </sourceDesc>
         </fileDesc>
