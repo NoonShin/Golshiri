@@ -39,7 +39,6 @@ $(function(){
                 var xsltProcessor = new XSLTProcessor();
                 xsltProcessor.importStylesheet(xsl_doc[0]);
                 resultDocument = xsltProcessor.transformToFragment(xml_doc[0], document);
-                // var selected = resultDocument.querySelector("body")
                 $("#critical").html(resultDocument);
             });
     }
@@ -56,19 +55,17 @@ $(function(){
                 xsltProcessor.importStylesheet(xsl_doc[0]);
                 xsltProcessor.setParameter(null, "layer", layer);
                 resultDocument = xsltProcessor.transformToFragment(xml_doc[0], document);
-                // var selected = resultDocument.querySelector("body")
                 $("#critical").html(resultDocument);
             });
     }
 
 
-    $(document).on("click", "#update", function(){
-        $(documentChanger());
-    });
-
     $('#sel1').on('change', function() {
       if (this.value == 'final-state') {
         $(documentLoader());
+        $(function () {
+          $('[data-toggle="popover"]').popover()
+        })
       }
       else {
         $(documentChanger(this.value));
