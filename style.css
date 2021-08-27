@@ -13,14 +13,19 @@ img {
 .row {
     height: 700px;
     width: 100%;
+    margin-left: 0;
 }
 
 .col {
-  padding-left: 30px;
-  padding-right: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #critical {
+  text-align: justify;
+}
+
+#diplomatic {
   text-align: justify;
 }
 

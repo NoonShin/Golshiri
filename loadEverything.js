@@ -43,7 +43,19 @@ $(function(){
             });
     }
 
+    function diplomaticDocumentLoader(){
+      $('#diplomatic').hide();
+            $.when($.get("golshiri-diplomatic.xml"), $.get("transform-diplomatic.xsl"))
+            .done(function(xml_doc, xsl_doc) {
+                var xsltProcessor = new XSLTProcessor();
+                xsltProcessor.importStylesheet(xsl_doc[0]);
+                resultDocument = xsltProcessor.transformToFragment(xml_doc[0], document);
+                $("#diplomatic").html(resultDocument);
+            });
+    }
+
     $(documentLoader());
+    $(diplomaticDocumentLoader());
     $(function () {
       $('[data-toggle="popover"]').popover()
     })
@@ -69,6 +81,21 @@ $(function(){
       }
       else {
         $(documentChanger(this.value));
+      }
+    });
+
+    $('#sel2').on('change', function() {
+      if (this.value == 'diplomatic') {
+        $('#critical').hide();
+        $('#critical-stages').hide();
+        $('#diplomatic').addClass('col');
+        $('#diplomatic').show();
+      }
+      else {
+        $('#diplomatic').hide();
+        $('#diplomatic').removeClass('col');
+        $('#critical-stages').show();
+        $('#critical').show();
       }
     });
 });

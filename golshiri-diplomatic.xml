@@ -1,0 +1,87 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>معصوم سوم</title>
+                <author>Houshang Golshiri</author>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name>Nooshin Shahidzadeh Asadi</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>First published 1973</p>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="P1">Stanford Libraries Manuscript</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:lang="fa">
+        <body>
+            <div>
+                <p>stand &#9; معصوم سوم &#9; ص۱ &#9; مردادماه ۱۳۵۲</p>
+                <p>مأموران شکاربانی دیده بودنش که از یک جاده بزرو بالا
+                    می‌رود <del><add>رفته است</add></del>.
+                    اول
+                    <add>احیاناً</add> 
+                    موتورش
+                    <add>را</add> 
+                    در سایهٔ
+                    <del>کوهی</del><br/>تخته سنگی 
+                    دیده‌اند و بعد دیگر
+                    <add>با وجود</add>
+                    جای پا<del>یش</del>
+                    یا عصایش بر خاک نرم شیب تند پیدا کردنش آنقدرها مشکل نبوده است. <br/>
+                    گفته بود: نمی‌دانسته است که شکار
+                    <add>هم</add>
+                    در این کوه
+                    <del>قدغن</del> قرق <del>شده</del> شده است.<br/>
+                    و به قله اشاره کرده بود. قله از پشت ململ مه نازکی پیدا بوده است. در پاسگاه کوله‌پشتی‌اش را<br/> 
+                    بازرسی کرده بودند. یک
+                    <del>تبر</del><add>تیشه</add>
+                    داشته و چند بسته کاغذ
+                    <add>لوله‌شده</add>
+                    و مقداری گچ و موم و حتی یک متر
+                    پارچه‌<del><add>نایلونی‌</add></del>ای 
+                    و یک<br/> 
+                    قابلمه کباب شامی و پنج شش نان که فقط غذای دو روز را کفایت می‌کرده است.
+                    
+                </p>
+                <p>
+                    برای تحقیقات بیشتر به خانه‌اش هم آمده بودند. زنش بی‌خبر بود. حتی فکر
+                    می‌کرد<del>ه است</del>
+                    که<br/> 
+                    برای کار به شهر دیگری رفته است.
+                    گفت‍<add>‍ـه است</add>: 
+                    موتورش را فروخت و ابزار کارش را برداشت و رفت
+                </p>
+                <p>کباب شامی را زن برایش
+                    <del>درست</del> پخته <del>کرده</del>
+                    بود. ما بعد خبر شدیم. یکی دو روز بعد هم که صدای<br/> 
+                    شیون بچه‌هاش بلند شده بود و همسایه‌ها
+                    رفته بود<add>ند</add>
+                    سراغش
+                    گفته <del>بود</del> <add>است</add>: 
+                    در صندوقش را شکسته و همه
+                    چیزهایی <del>چیزهایی</del><br/>
+                    که
+                    <del>آن</del> <add>این <add>تو</add></add>
+                    ریخته بود بردند.
+                </p>
+                <p xml:id="loc">صندوق را نشان زن‌ها داده بود.
+                    <add><del>صندوق</del> یکی از همین یخدان‌های بزرگ قدیمی <add>بوده</add> با <add>گل‌میخ‌ها</add> و پولک‌<add>هایی از آهن سفید.</add></add>
+                    خالی بوده است. قفل همچنان به ریزه بند بوده و چفت شکسته و دونیم<br/> 
+                    شده بود. گفته است: کلیدش همیشه پهلوی خودش بود. هیچوقت
+                    <add>هم</add>
+                    جلو من بازش
+                    <del>نکرده بود</del> <add>نمی‌کرد</add>
+                    <del>ببینم چی توش هست</del>.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
